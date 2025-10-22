@@ -6,3 +6,6 @@ CLIF_*.fst
 # ignore pdf reports and rendered html
 *.pdf
 *.html
+
+# ignore virtual environment
+.vap-onset/
