@@ -1,4 +1,4 @@
-# *CLIF VAP Onset Psrediction*
+# *CLIF VAP Onset Prediction*
 
 ## Objective
 
