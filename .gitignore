@@ -1,4 +1,4 @@
-#ignore source CLIF_ files 
+# ignore source CLIF_ files 
 CLIF_*.parquet
 CLIF_*.csv
 CLIF_*.fst
@@ -6,6 +6,14 @@ CLIF_*.fst
 # ignore pdf reports and rendered html
 *.pdf
 *.html
+*.yaml
+*.csv
+*.parquet
+*.json
 
 # ignore virtual environment
 .vap-onset/
+
+# ignore output and any intermediate files used for analysis
+output/
+private_tables/
