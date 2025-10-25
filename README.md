@@ -18,7 +18,9 @@ The following tables are required:
 7. **crrt_therapy**: `hospitalization_id`, `recorded_dttm`
 
 ## Cohort identification
-temp
+1. Age >= 18
+2. Paitnet admitted to hospital between 2018-01-01 and 2022-12-31
+3. Have mechanical ventilation > 48 hours during ICU stay 
 
 ## Configuration
 1. Navigate to the `config/` directory.
