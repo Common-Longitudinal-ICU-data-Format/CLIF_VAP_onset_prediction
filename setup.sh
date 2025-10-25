@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Configuration: Specify Python version preference
+# Specify Python version preference
 PREFERRED_PYTHON="python3.12"
 
 # Try preferred version first, fallback to python3
@@ -13,7 +13,7 @@ fi
 
 echo "Using: $($PYTHON_CMD --version)"
 
-# Rest of the script remains the same
+# Set up virtual environment and install dependencies
 $PYTHON_CMD -m venv .vap-onset
 source .vap-onset/bin/activate
 python --version
